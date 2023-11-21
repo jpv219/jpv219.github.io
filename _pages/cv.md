@@ -11,21 +11,17 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Eng. in Chemical Engineering, Universidad de Los Andes, Bogotá, Colombia, March 2018
+* M.Sc. in Chemical Engineering Research, Universidad de Los Andes, Bogotá, Colombia, March 2020
+* Ph.D in Chemical Engineering, Imperial College London, London, U.K. 2024 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan-Jul 2017: Junior R&D Engineer Internship
+  * QUALA S.A.
+  * Duties included: Formulation, development and physicochemical characterization of personal care products, industrial process scale up, stability analysis, product claim support through experiments and literature review, all realted with commercial brands Savital, Bioexpert, Ego and Nutribela. 
+  * Supervisor: Diana Orjuela, M.Sc.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
@@ -54,6 +50,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Recognitions and Awards
 ======
 * Currently signed in to 43 different slack teams

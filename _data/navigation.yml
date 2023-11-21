@@ -7,4 +7,7 @@ main:
     url: /publications/
 
   - title: "Conferences and Communications"
+    url: /talks/
+
+  - title: "Around the world"
     url: /talkmap.html
