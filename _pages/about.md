@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-aboout me
+I am a Chemical Engineer with a Master's Degree in Chemical Engineering Research, currently working as a PhD
