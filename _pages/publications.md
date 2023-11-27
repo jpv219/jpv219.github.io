@@ -9,8 +9,15 @@ author_profile: true
   You can also find my publications on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% include base_path %}
+{% assign years = site.publications | map: 'date' | date: "%Y" | uniq %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% for year in years %}
+  <h2>{{ year }}</h2>
+  {% for post in site.publications %}
+    {% assign publication_year = post.date | date: "%Y" %}
+    {% if publication_year == year %}
+      {% include styled-publication.html %}
+    {% endif %}
+  {% endfor %}
 {% endfor %}
+
