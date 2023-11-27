@@ -29,14 +29,14 @@ You can also refer to my [Google Scholar profile](https://scholar.google.com/cit
 - Pico, P., **Valdes, J.P.**, Pinilla, A., Echeverri, A., Gomez, J., Ratkovich, N., and Cifuentes, B.  (2020). "CFD modelling of the air conditioning system for a Tier 2 Data Centre." <i>Adv. Build. Energy Res. </i>. 16(2). Available at: <https://doi.org/10.1080/17512549.2020.1860818>
 - Marquez-Torres, L., Ochoa-Pineda, J., Pico, P., **Valdes, J.P.**, Becerra, D., Pinilla, A., Pereyra, E., and Ratkovich, N.  (2020). "Comparison of 63 different void fraction correlations for different flow patterns, pipe inclinations and liquid viscosities." <i>SN Appl. Sci. </i>. 2:1695. Available at: <https://doi.org/10.1007/s42452-020-03464-w>
 - Pinilla, A., Berrio, J.C., Guerrero, E., **Valdes, J.P.**, Becerra, D., Pico, P., Vargas, L., Madsen, S., Bentzen, T.R., and Ratkovich, N.  (2020). "CFD modelling of the hydrodynamics in a filtration unit with rotating membranes." <i>J. Water Process Eng. </i>. 36. Available at: <https://doi.org/10.1016/j.jwpe.2020.101368>
-- **Valdes, J.P.**, Pico, P., Pereyra, E., and Ratkovich, N.  (2020). "Evaluation of drift-velocity closure relationships for highly viscous liquid-air slug flow in horizontal pipes through 3D CFD modelling." <i>Chem. Eng. Sci. </i>. 217. Available at: <https://doi.org/10.1016/j.ces.2020.115537>
+- **Valdes, J.P.**, Asuaje, M., and Ratkovich, N.  (2020). "Study of an ESP's performance handling liquid-liquid flow and unstable O-W emulsions part I: Experimental." <i>Chem. Eng. Sci. </i>. 223. Available at: <https://doi.org/10.1016/j.ces.2020.115726>
 - **Valdes, J.P.**, Pico, P., Pereyra, E., and Ratkovich, N.  (2020). "Evaluation of drift-velocity closure relationships for highly viscous liquid-air slug flow in horizontal pipes through 3D CFD modelling." <i>Chem. Eng. Sci. </i>. 217. Available at: <https://doi.org/10.1016/j.ces.2020.115537>
 
 ### 2019
 
 - **Valdes, J.P.**, Becerra, D., Rozo, D., Cediel, A., Torres, F., Asuaje, M., and Ratkovich, N.  (2019). "Comparative analysis of an electrical submersible pump's performance handling viscous Newtonian and non-Newtonian fluids through experimental and CFD approaches." <i>J. Pet. Sci. Eng. </i>. 187. Available at: <https://doi.org/10.1016/j.petrol.2019.106749>
 - Prieto, L., Pinilla, A., Becerra, D., Pico, P., **Valdes, J.P.**, Pereyra, E., and Ratkovich, N.  (2019). "Phase Inversion Correlations Analysis for Oil-Water Flow in Horizontal Pipes." <i>Ind. Eng. Chem. Res. </i>. 58. Available at: <https://doi.org/10.1021/acs.iecr.9b01773>
-- Ballesteros, M.A., Daza, M.A., Valdes, J.P., Ratkovich, N., and Reyes, L.H.  (2019). "Applying PBL methodologies to the chemical engineering courses: Unit operations and modeling and simulation, using a joint course project." <i>Educ. Chem. Eng. </i>. 27. Available at: <https://doi.org/10.1016/j.ece.2019.01.005>
+- Ballesteros, M.A., Daza, M.A., **Valdes, J.P.**, Ratkovich, N., and Reyes, L.H.  (2019). "Applying PBL methodologies to the chemical engineering courses: Unit operations and modeling and simulation, using a joint course project." <i>Educ. Chem. Eng. </i>. 27. Available at: <https://doi.org/10.1016/j.ece.2019.01.005>
 
 ### 2018
 
