@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+***
 # Education
 ***
 
@@ -85,9 +86,11 @@ redirect_from:
 * Conducted a coupled CFD-PBM study on two-phase gas-solid risers using commercial software STAR-CCM+ and ANSYS Fluent under Prof. Dr. Dirceu Noriler's supervision.
 * Research findings were presented at .
 
+***
 
 # Skills
-======
+***
+
 * Coding skills
   * Python (including NumPy, Pandas, scikit-learn, Pytorch, Ray Tune, Seaborn, PvPython)
   * MATLAB
@@ -145,10 +148,10 @@ redirect_from:
   - Chemical Reaction Engineering (2016)
   - Modelling and Simulation in Chemical Engineering (2017)
 
-***
+<hr>
 
 # Recognitions and Awards
-======
+<hr>
 
 ## ❖ March 2020: Cum Laude M.Sc. Graduation
 ### Universidad de Los Andes, Bogota, Colombia
