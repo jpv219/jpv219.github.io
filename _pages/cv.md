@@ -14,13 +14,13 @@ redirect_from:
 ***
 
 ## Ph.D. in Chemical Engineering
-### *Imperial College London, London, U.K. (Expected 2024)*
+*Imperial College London, London, U.K. (Expected 2024)*
   
 ## M.Sc. in Chemical Engineering Research
-### *Universidad de Los Andes, Bogotá, Colombia (March 2020)*
+*Universidad de Los Andes, Bogotá, Colombia (March 2020)*
 
 ## B.Eng. in Chemical Engineering
-### *Universidad de Los Andes, Bogotá, Colombia (March 2018)*
+*Universidad de Los Andes, Bogotá, Colombia (March 2018)*
 
 ***
 
@@ -148,10 +148,10 @@ redirect_from:
   - Chemical Reaction Engineering (2016)
   - Modelling and Simulation in Chemical Engineering (2017)
 
-<hr>
+***
 
 # Recognitions and Awards
-<hr>
+***
 
 ## ❖ March 2020: Cum Laude M.Sc. Graduation
 ### Universidad de Los Andes, Bogota, Colombia
