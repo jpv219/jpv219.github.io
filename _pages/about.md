@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a Chemical Engineer with a Master's Degree in Chemical Engineering Research, currently working as a PhD
+I am a Chemical Engineer with a Master's Degree in Chemical Engineering Research, currently undergoing my last year as a PhD researcher at the Department of Chemical Engineering at Imperial College London. 
