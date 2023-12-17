@@ -27,37 +27,38 @@ redirect_from:
 # Projects and Research
 ***
 
-## ❖ Hybrid Local-HPC Automation Package for Parallel Simulation
+## ❖ Hybrid Local-HPC automation package for parallel simulation run, monitoring, and post-processing
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2023-2024)
-* Developed a set of Python scripts (HAMPPSterS Repo) from the ground up to orchestrate in parallel, from a local PC, the entire CFD cycle: from setup, submission, monitoring, re-submission and conversion of DNS simulations in a remote HPC server, to download and post-processing in a local PC.
-* Wrote a parametric run generator using library psweep with a DOE LHS sampler embedded to initialize in parallel each simulation run lifecycle.
-* Coded two main scripts (local and HPC) to handle all essential procedures, such as job set-up and submission, status monitoring, convergence checks and dynamic re-submission when needed based on customizable stopping criteria, file conversion and download to local PC and PvPython post-processing.
-* Developed a communication system between the remote HPC server and local system using a SSHv2 protocol implementation through Paramiko without the need to keep an HPC user session active.
+* Spearheaded the creation of the HAMPPSterS Python repository from the ground up to enable parallelized orchestration of the entire CFD cycle for in-house DNS simulations in a hybrid remote HPC<->local PC environment: this includes coding essential procedures including remote job setup, submission and status monitoring, scheduled convergence checks, dynamic re-submission based on custom, case-specific stopping criteria and data conversion, to data download and local PvPython post-processing.
+* Developed a parametric run generator using library psweep with a physics-constrained DOE LHS sampler embedded to initialize in parallel each simulation run lifecycle.
+* Developed a communication system between the remote HPC server and local system using a SSHv2 protocol implementation through Paramiko, eliminating the need to keep a continuously active HPC user sessionm, thus decreasing load in the HPC user-shared nodes.
 * Successfully implemented HAMPPSterS in three parametric studies for mixing devices, generating over 200 DNS runs per study within 4 months.
 * Successfully extended the implementation of HAMPPSterS to various fluid dynamics projects in collaboration with Ph.D. researchers from Matar Fluid's Group.
 * GitHub Repository: [HAMPPSterS](https://github.com/jpv219/HAMPPSterS)
 
-## ❖ Deep LSTM RNN Framework for Dispersion Metrics Timeseries Prediction
+## ❖ Deep LSTM RNN framework for multivariate multistep time-series prediction
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2023-2024)
-* Co-wrote a Python framework to pre-process and augment multivariate timeseries data, train and carry out predictions with different Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) architectures in PyTorch, and carry out uncertainty quantification via ensemble perturbation.
-* Designed and constructed the framework's overall workflow, re-coding the original framework into separate object-oriented scripts for data pre-processing, data augmentation and model training, hyperparameter tuning, and rollout predictions and visualization.
+* Co-wrote a system-agnostic Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) PyTorch framework to pre-process and augment multivariate multidimensional timeseries data, train and carry out multistep predictions with different LSTM architectures, and carry out uncertainty quantification via ensemble perturbation.
+* Designed and constructed the framework's overall workflow, revamping the original code into separate object-oriented scripts for data pre-processing, data augmentation and model training, hyperparameter tuning, and rollout predictions and visualization, enhancing its generalisation capability and improving overall code maintainability.
 * Coded from scratch raw data processing, clean-up and packaging scripts to make DNS data suitable for the LSTM model.
-* Developed a LSTM model hyperparameter tuning and further training procedure using Ray tune.
+* Implemented regularisation, learning rate scheduling and early stopping techniques within the LSTM architecture to mitigate model overfitting. 
+* Implemented a Ray Tune hyperparameter tuning and further training procedure to enhance model robustness.
 * GitHub Repository: [LSTMIX](https://github.com/jpv219/LSTMIX)
 
 ## ❖ DNS of Surfactant-Laden Dispersions in Static Mixers
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2021-2022)
-* Set up and deployed two-phase DNS simulations of a standard SMX static mixer in a High Performance Computing (HPC) environment. Simulations were carried out using in-house code BLUE developed by collaborators from LISN-CNRS, France and Hongik University, South Korea.
-* Modified pre-built Fortran scripts to generate all case studies considered throughout the project: complex dispersed phase inlet morphologies (i.e., multi-drop or jet inlet) and alternative SMX element arrangements.
-* Wrote and implemented PvPython scripts to automate temporal tracking of drop count, size distribution and interfacial surfactant concentration, as well as map spatially key hydrodynamic features throughout the mixer (i.e., velocity, pressure, flow topology, stretching efficiency).
-* Authored two papers in Chem. Eng. J. detailing the fundamental physical mechanisms and interfacial phenomena governing the dispersion dynamics of SMX mixers when handling complex inlet morphologies and surfactant-laden systems.
+* Set up and deployed high fidelity two-phase simulations of a SMX static mixer in a HPC environment using an in-house, massively parallelized DNS code. The results generated unveiled novel insights into the fundamental governing mechanisms and interfacial phenomena unfolding during the dispersion process.
+* Executed comprehensive statistical data analysis with MATLAB to uncover functional relationships between the surfactant's physicochemical nature and different dispersion performance metrics.
+* Modified and adapted pre-built Fortran and Shell scripts to generate the complex case studies explored throughout this project.
+* Wrote and implemented PvPython scripts to automate temporal tracking of drop count, size distribution and interfacial surfactant concentration, as well as to map spatially key hydrodynamic features throughout the mixer (i.e., velocity, pressure, flow topology, stretching efficiency).
+* Published the results gathered in two papers in Chem. Eng. J. detailing two complex, industrially relavant scenarios: complex inlet morphologies and surfactant-laden systems.
 
 ## ❖ Experimental and CFD Analysis of an ESP Handling Complex Liquid Flows
 ### Department of Chemical Engineering, Universidad de Los Andes, Colombia (2021-2022)
-* Set-up and deployed non-Newtonian and two-phase CFD simulations of an Electrical Submersible Pump (ESP) using commercial software STAR-CCM+. Carried out the entire CFD lifecycle, from geometry construction and clean-up in Autodesk Inventor, to mesh generation, physics model setup, and post-processing.
-* Implemented newly released Population Balance Modelling (PBM) algorithms AMuSiG and S-Gamma to model drop breakup/coalescence, and compared them against Eulerian multiphase segregated flow and VOF frameworks.
-* Authored three papers in J. Pet. Sci. Eng. and Chem. Eng. Sci. exploring the performance and internal flow dynamics of the ESP when handling non-Newtonian single phase flows and two-phase oil-water flows, comparing it with experimental measurements.
-* Collaborated with undergraduate students to build the experimental rig used for the project. Carried out rheological, drop size distribution and Turbiscan Stability Index measurements for the emulsion systems tested in the ESP. 
+* Set-up and deployed non-Newtonian and two-phase CFD simulations of an Electrical Submersible Pump (ESP) using commercial software STAR-CCM+, carrying out the entire CFD lifecycle, from geometry construction and clean-up in Autodesk Inventor, to mesh generation, physics model and solver setup, and post-processing.
+* Implemented newly released Population Balance Modelling (PBM) algorithms AMuSiG and S-Gamma to model drop breakup/coalescence, a first on ESPs handling complex emulsion flows. The framework's performance was compared against traditional Eulerian segregated flow and VOF approaches, outperforming such models in most cases with a <15\% deviation.
+* Led and managed a team of four undergraduate students in the construction and operation of the experimental rig used for the project. Oversaw the collection of rheological, drop size distribution, and Turbiscan Stability Index measurements for the emulsion systems tested throughout the project. 
+* Published the results of this project in three papers in J. Pet. Sci. Eng. and Chem. Eng. Sci., revealing insights between hydraulic loss mechanisms and complex flow properties which can be leveraged for real-life geometry and operation optimsation.
 
 *** 
 
@@ -73,7 +74,7 @@ redirect_from:
 ### QUALA S.A., Bogota, Colombia (January-July 2017)
 * Formulated and developed hair mask, styling wax, and conditioner prototypes at laboratory scale for commercial brands Nutribela and EGO.
 * Conducted physicochemical characterization (e.g., rheology, pH, drop size distribution) and stability analysis of prototypes.
-* Assisted in industrial scale-up tests and process development.
+* Assisted in developing industrial scale-up tests and full-scale process development, leveraging the lab-scale findings generated.
 * Built product claim support portfolios through lab-scale experiments and scientific literature review.
 
 ***
@@ -152,6 +153,9 @@ redirect_from:
 
 # Recognitions and Awards
 ***
+## ❖ March 2022: STEM FOR BRITAIN 22' Finalist
+### The Parliamentary & Scientific Committee, London, U.K.
+* Shortlisted from hundreds of applicants throughout the UK to attend the prestigious poster event STEM FOR BRITAIN 22', held at the Houses of Parliament.
 
 ## ❖ March 2020: Cum Laude M.Sc. Graduation
 ### Universidad de Los Andes, Bogota, Colombia
@@ -171,5 +175,5 @@ redirect_from:
 
 ## ❖ June 2013: Valedictorian Graduation
 ### The English School, Bogota, Colombia
-* Academic Excellence recognition for the highest GPA in the International Baccalaureate (IB) programme (Final IB Score = 38/45).
+* Academic Excellence recognition for the highest GPA in the International Baccalaureate (IB) programme (Final IB Score = 36/45).
 
