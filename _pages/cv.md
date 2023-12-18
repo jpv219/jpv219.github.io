@@ -85,7 +85,7 @@ redirect_from:
 ## ❖ Visiting M.Sc. Researcher
 ### Departamento de Engenharia de Processos (DEPro), Universidade Estadual de Campinas, Brazil (May-July 2019)
 * Conducted a coupled CFD-PBM study on two-phase gas-solid risers using commercial software STAR-CCM+ and ANSYS Fluent under Prof. Dr. Dirceu Noriler's supervision.
-* Research findings were presented at .
+* Research findings were presented at the XXXIX Brazilian Congress of Particulate Systems, ENEMP 2019, Belem-Para, Brazil.
 
 ***
 
