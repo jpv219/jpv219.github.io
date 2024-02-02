@@ -29,20 +29,18 @@ redirect_from:
 
 ## ❖ Hybrid Local-HPC automation package for parallel simulation run, monitoring, and post-processing
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2023-2024)
-* Spearheaded the creation of the HAMPPSterS Python repository from the ground up to enable parallelized orchestration of the entire CFD cycle for in-house DNS simulations in a hybrid remote HPC<->local PC environment: this includes coding essential procedures including remote job setup, submission and status monitoring, scheduled convergence checks, dynamic re-submission based on custom, case-specific stopping criteria and data conversion, to data download and local PvPython post-processing.
-* Developed a parametric run generator using library psweep with a physics-constrained DOE LHS sampler embedded to initialize in parallel each simulation run lifecycle.
-* Developed a communication system between the remote HPC server and local system using a SSHv2 protocol implementation through Paramiko, eliminating the need to keep a continuously active HPC user sessionm, thus decreasing load in the HPC user-shared nodes.
-* Successfully implemented HAMPPSterS in three parametric studies for mixing devices, generating over 200 DNS runs per study within 4 months.
-* Successfully extended the implementation of HAMPPSterS to various fluid dynamics projects in collaboration with Ph.D. researchers from Matar Fluid's Group.
+* Spearheaded the creation of the HAMPPSterS Python repository from the ground up, in collaboration with two PhD colleagues, to enable parallelized orchestration of the entire CFD cycle for in-house DNS simulations in a hybrid remote HPC<->local PC environment. The repo fully automates and streamlines repetitive manual tasks carried out by fellow researchers, increasing the number of concurrent simulations five-fold and decreasing simulation run wait time by half. These tasks include: remote job setup, submission and status monitoring, scheduled convergence checks, dynamic re-submission based on custom, case-specific stopping criteria and data conversion, to local data download and subsequent PvPython post-processing.
+* Developed a generic parametric run generator script using Python library psweep, with a physics-constrained DOE Latin Hypercube sampler embedded to initialize in parallel each simulation's run lifecycle for any type of set-up.
+* Developed a communication system between the remote HPC server and local system using a SSHv2 protocol implementation through Paramiko, eliminating the need to keep a continuously active HPC user session, thus decreasing load in the HPC user-shared nodes.
+* Successfully implemented HAMPPSterS in numerous projects in collaboration with Ph.D. researchers from my group, namely three parametric studies for mixing devices, as well as a fundamental investigation on interfacial oscillations, generating over 200 DNS runs per study within 2-4 months.
 * GitHub Repository: [HAMPPSterS](https://github.com/jpv219/HAMPPSterS)
 
 ## ❖ Deep LSTM RNN framework for multivariate multistep time-series prediction
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2023-2024)
-* Co-wrote a system-agnostic Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) PyTorch framework to pre-process and augment multivariate multidimensional timeseries data, train and carry out multistep predictions with different LSTM architectures, and carry out uncertainty quantification via ensemble perturbation.
-* Designed and constructed the framework's overall workflow, revamping the original code into separate object-oriented scripts for data pre-processing, data augmentation and model training, hyperparameter tuning, and rollout predictions and visualization, enhancing its generalisation capability and improving overall code maintainability.
-* Coded from scratch raw data processing, clean-up and packaging scripts to make DNS data suitable for the LSTM model.
-* Implemented regularisation, learning rate scheduling and early stopping techniques within the LSTM architecture to mitigate model overfitting. 
-* Implemented a Ray Tune hyperparameter tuning and further training procedure to enhance model robustness.
+* Co-wrote a novel multi-step PyTorch LSTM framework for mixing performance prediction, adept at handling multi-feature time-series inputs with varying feature dimensions per time-step. This capability circumvents the need for uniform feature dimensions, addressing traditional LSTM networks' limitations.
+* Designed and constructed the framework's overall workflow, revamping the original code into separate object-oriented scripts for raw data pre-processing and clean-up, data augmentationm packaging and model training, hyperparameter tuning, and rollout predictions and visualization, enhancing its generalisation capability and improving overall code maintainability.
+* Implemented L1/L2 regularisation methods, learning rate scheduling and early stopping algorithms to mitigate overfitting and guarantee high predictive accuracy with deviations under 20% on average.
+* Co-wrote a parallelised hyperparameter tuning script with Ray Tune, exploring over 2000 possible configurations for different network architectures, finding best-performing models with a 75% lower MSE.
 * GitHub Repository: [LSTMIX](https://github.com/jpv219/LSTMIX)
 
 ## ❖ DNS of Surfactant-Laden Dispersions in Static Mixers
@@ -50,14 +48,14 @@ redirect_from:
 * Set up and deployed high fidelity two-phase simulations of a SMX static mixer in a HPC environment using an in-house, massively parallelized DNS code. The results generated unveiled novel insights into the fundamental governing mechanisms and interfacial phenomena unfolding during the dispersion process.
 * Executed comprehensive statistical data analysis with MATLAB to uncover novel functional relationships between the surfactant's physicochemical nature and different dispersion performance metrics.
 * Modified and adapted pre-built Fortran and Shell scripts to generate the complex case studies explored throughout this project.
-* Wrote and implemented PvPython scripts to automate temporal tracking of drop count, size distribution and interfacial surfactant concentration, as well as to map spatially key hydrodynamic features throughout the mixer (i.e., velocity, pressure, flow topology, stretching efficiency).
+* Wrote and implemented PvPython scripts to automate the extraction of key temporal interfacial metrics (e.g., drop count and sizes), alongside computing and mapping relevant hydrodynamic features throughout the mixer, thus expediting data extraction and effectively tackling the challenge of post-processing significantly heavy datasets, commonly exceeding 0.5 TB per case.
 * Published the results gathered in two papers in Chem. Eng. J. detailing two complex, industrially relavant scenarios: complex inlet morphologies and surfactant-laden systems.
 
 ## ❖ Experimental and CFD Analysis of an ESP Handling Complex Liquid Flows
 ### Department of Chemical Engineering, Universidad de Los Andes, Colombia (2018-2020)
 * Set-up and deployed non-Newtonian and two-phase CFD simulations of an Electrical Submersible Pump (ESP) using commercial software STAR-CCM+, carrying out the entire CFD lifecycle, from geometry construction and clean-up in Autodesk Inventor, to mesh generation, physics model and solver setup, and post-processing.
 * Implemented newly released Population Balance Modelling (PBM) algorithms AMuSiG and S-Gamma to model drop breakup/coalescence, a first on ESPs handling complex emulsion flows. The framework's performance was compared against traditional Eulerian segregated flow and VOF approaches, outperforming such models in most cases with a <15\% deviation.
-* Led and managed a team of four undergraduate students in the construction and operation of the experimental rig used for the project. Oversaw the collection of rheological, drop size distribution, and Turbiscan Stability Index measurements for the emulsion systems tested throughout the project. 
+* Led, trained and managed a team of 4 students in the construction and operation of the experimental rig used for the project. Designed a 16 week work plan and coordinated shifts to efficiently collect rheological, drop size distribution, and Turbiscan Stability Index measurements for the emulsion systems tested throughout the project. 
 * Published the results of this project in three papers in J. Pet. Sci. Eng. and Chem. Eng. Sci., revealing insights between hydraulic loss mechanisms and complex flow properties which can be leveraged for real-life geometry and operation optimsation.
 
 *** 
@@ -65,17 +63,16 @@ redirect_from:
 # Work Experience
 ***
 
-## ❖ Freelance Technical Writer and Sales Outreach
+## ❖ Technical Writer and Sales Outreach
 ### Quaisr., London, U.K. (March-October 2023)
 * Co-authored 4 technical blogs and developed practical Python-based examples on Smart Maintenance, Design of Experiments, and Active Learning, exploring links with AI, simulations, and streaming data.
-* Collaborated with the sales team on email campaigns to generate new business opportunities.
+* Led a targeted email outreach campaign to senior scientists in top pharma companies, strategically aligning Quaisr's platform capabilities with their research fields to generate leads for potential clients.
 
-## ❖ Junior R&D Engineer Internship
+## ❖ Personal Care R&D Junior Engineer
 ### QUALA S.A., Bogota, Colombia (January-July 2017)
-* Formulated and developed laboratory-scale hair mask, styling wax, and conditioner prototypes for the #1 grossing hair care brand in Latin America at the time.
+* Formulated and characterised lab-scale prototypes to accelerate industrial scale-up, reducing time to market by 6 months for several lines within the #1 grossing hair care brand in Latin America at the time.
 * Conducted physicochemical characterization (e.g., rheology, pH, drop size distribution) and stability analysis of prototypes.
-* Assisted in accelerating industrial scale-up tests and full-scale process development, leveraging the lab-scale findings generated to reduce time to market by 6 months.
-* Built product claim support portfolios through lab-scale experiments and scientific literature review.
+* Built product claim support portfolios through lab-scale experiments and scientific literature review, expediting marketing campaigns and improving customer product perception in subsequent field surveys.
 
 ***
 
@@ -95,11 +92,12 @@ redirect_from:
 * Coding skills
   * Python (including NumPy, Pandas, scikit-learn, Pytorch, Ray Tune, Seaborn, PvPython)
   * MATLAB
-  * High Performance Computing (HPC)
+  * High Performance Computing (HPC) environment
+  * Linux environment
   * Bash/Zsh/Shell
   * Git
   * LaTeX
-* Software package
+* Software packages
   * Paraview
   * Siemens STAR-CCM+
   * Autodesk Inventor
@@ -123,15 +121,12 @@ redirect_from:
 
 ## ❖ Graduate Teaching Assistant
 ### Department of Chemical Engineering, Universidad de Los Andes, Bogota, Colombia (2018-2019)
-* Designed a 16-week complementary module for the undergraduate course *”Introduction to Modeling and Simulation in Chemical Engineering”*, including lecture delivery, coursework, assessments, and a final module project.
-  * Designed and taught practical examples in MATLAB showcasing basic matrix operations, linear and non-linear multi-variable solving algorithms, optimization tools, and numerical modeling methods for ODE, DAE, and PDE systems.
+* Designed a 16-week complementary module for the undergraduate course *”Introduction to Modeling and Simulation in Chemical Engineering”*, which was set as the template for subsequent years. This included lecture delivery, coursework, assessments, and a final module project.
+  * Designed and taught practical examples in MATLAB showcasing basic matrix operations, linear and non-linear multi-variable solving algorithms, optimization tools, and numerical modeling methods for ODE and PDE systems.
   * Developed practical coursework on CAD software Autodesk Inventor and on process simulator ASPEN ONE Suite.
   * Co-designed and constructed the final module project in CFD with commercial software STAR-CCM+, focusing on mixing systems, heat exchangers, and turbomachinery.
-* Students Official Evaluation of the course according to ABET Guidelines:
-  - 2018-10: 4.7/5
-  - 2018-20: 4.6/5
-  - 2019-10: 4.91/5
-  - 2019-20: 4.8/5
+* Elevated student survey scores by around 18% compared to previous years and maintained them throughout my tenure: 2018-10 (4.7/5), 2018-20 (4.6/5), 2019-10 (4.91/5), and 2019-20 (4.8/5).
+* Led, trained and managed a group of 4 undergraduate teaching assistants each semester to assist with mentoring, coursework grading and project guidance.
 
 ## ❖ Graduate Teaching Assistant
 ### Department of Chemical Engineering, Universidad de Los Andes, Bogota, Colombia (2018-2019)
@@ -148,11 +143,15 @@ redirect_from:
   - Transport Phenomena I (2015)
   - Chemical Reaction Engineering (2016)
   - Modelling and Simulation in Chemical Engineering (2017)
+* Introduced the first VBA-based mini-project in Thermodynamics (2014) to calculate fluid properties.
 
 ***
 
 # Recognitions and Awards
 ***
+## ❖ 2020-2024: PhD Scholarship from the Science and Innovation Ministry MINCIENCIAS
+### MINCIENCIAS, Colombia
+* Recipient of the "PhD Abroad Scholarship" awarded annually by the Colombian Government to 300 students nationwide. Funding totalling approximately £80,000.
 ## ❖ March 2022: STEM FOR BRITAIN 22' Finalist
 ### The Parliamentary & Scientific Committee, London, U.K.
 * Shortlisted from hundreds of applicants throughout the UK to attend the prestigious poster event STEM FOR BRITAIN 22', held at the Houses of Parliament.
@@ -177,3 +176,12 @@ redirect_from:
 ### The English School, Bogota, Colombia
 * Academic Excellence recognition for the highest GPA in the International Baccalaureate (IB) programme (Final IB Score = 36/45).
 
+# Extracurricular Activities
+***
+## ❖ Imperial College London Men's Squash 1st Team
+### Imperial College London, U.K. (2022-2024)
+* 3rd seeded player and Team Captain for the 23/24 season. 23' LUSL Cup Champions
+
+## ❖ Uniandes Men's Squash Team
+### Universidad de Los Andes, Colombia (2015-2019)
+* Elite category squash player. 3X Bogota University League (CERROS) champions (2017-2019).
