@@ -15,5 +15,5 @@ My research experience is centered around Computational Fluid Dynamics (CFD) app
 I'm an enthusiastic squash player, and I have played for the Men's Elite category team at the Universidad de Los Andes in Colombia from 2017 to 2019, and for the Men's 1st team at Imperial College London, where I was appointed captain for the 23/24 season. 
 
 <span style="display:block; ">
-![Imperial College Men's 1st team winning LUSL 23](/images/squash_team.HEIC)
+![Imperial College Men's 1st team winning LUSL 23](/images/squash_team.jpg)
 </span>
