@@ -42,6 +42,7 @@ redirect_from:
 * Implemented L1/L2 regularisation methods, learning rate scheduling and early stopping algorithms to mitigate overfitting and guarantee high predictive accuracy with deviations under 20% on average.
 * Co-wrote a parallelised hyperparameter tuning script with Ray Tune, exploring over 2000 possible configurations for different network architectures, finding best-performing models with a 75% lower MSE.
 * GitHub Repository: [LSTMIX](https://github.com/jpv219/LSTMIX)
+* Findings were disseminated orally at the 76th Annual meeting of the APS Division of Fluid Mechanics (2023) in Washington D.C., U.S..
 
 ## ❖ DNS of Surfactant-Laden Dispersions in Static Mixers
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2021-2022)
@@ -50,6 +51,7 @@ redirect_from:
 * Modified and adapted pre-built Fortran and Shell scripts to generate the complex case studies explored throughout this project.
 * Wrote and implemented PvPython scripts to automate the extraction of key temporal interfacial metrics (e.g., drop count and sizes), alongside computing and mapping relevant hydrodynamic features throughout the mixer, thus expediting data extraction and effectively tackling the challenge of post-processing significantly heavy datasets, commonly exceeding 0.5 TB per case.
 * Published the results gathered in two papers in Chem. Eng. J. detailing two complex, industrially relavant scenarios: complex inlet morphologies and surfactant-laden systems.
+* Results were presented orally at the AIChE annual meetings (2022-2023) in Phoenix and Orlando, U.S., respetively, the ECCOMAS Congress (2022) in Oslo, Norway, the 11th International Conference of Multiphase Flow (2023) in Kobe, Japan, and the 74th and 75th editions of the APS DFD in Phoenix and Indianapolis, U.S., respectively.
 
 ## ❖ Experimental and CFD Analysis of an ESP Handling Complex Liquid Flows
 ### Department of Chemical Engineering, Universidad de Los Andes, Colombia (2018-2020)
@@ -57,6 +59,7 @@ redirect_from:
 * Implemented newly released Population Balance Modelling (PBM) algorithms AMuSiG and S-Gamma to model drop breakup/coalescence, a first on ESPs handling complex emulsion flows. The framework's performance was compared against traditional Eulerian segregated flow and VOF approaches, outperforming such models in most cases with a <15\% deviation.
 * Led, trained and managed a team of 4 students in the construction and operation of the experimental rig used for the project. Designed a 16 week work plan and coordinated shifts to efficiently collect rheological, drop size distribution, and Turbiscan Stability Index measurements for the emulsion systems tested throughout the project. 
 * Published the results of this project in three papers in J. Pet. Sci. Eng. and Chem. Eng. Sci., revealing insights between hydraulic loss mechanisms and complex flow properties which can be leveraged for real-life geometry and operation optimsation.
+* Findings were disseminated at the 10th International Conference of Multiphase Flow (2019) in Rio de Janeiro, Brazil.
 
 *** 
 
@@ -127,6 +130,7 @@ redirect_from:
   * Co-designed and constructed the final module project in CFD with commercial software STAR-CCM+, focusing on mixing systems, heat exchangers, and turbomachinery.
 * Elevated student survey scores by around 18% compared to previous years and maintained them throughout my tenure: 2018-10 (4.7/5), 2018-20 (4.6/5), 2019-10 (4.91/5), and 2019-20 (4.8/5).
 * Led, trained and managed a group of 4 undergraduate teaching assistants each semester to assist with mentoring, coursework grading and project guidance.
+* Collaborated in re-structuring the main module through a Project-Based Learning (PBL) approach, achieving 85\% positive feedback from students and featuring a publication in *Edu. Chem. Eng.* [Ballesteros et al. (2018)](https://www.sciencedirect.com/science/article/pii/S1749772818300496)
 
 ## ❖ Graduate Teaching Assistant
 ### Department of Chemical Engineering, Universidad de Los Andes, Bogota, Colombia (2018-2019)
@@ -138,12 +142,12 @@ redirect_from:
 
 ## ❖ Undergraduate Teaching Assistant
 ### Department of Chemical Engineering, Universidad de Los Andes, Bogota, Colombia (2014-2017)
-* Assisted with tutoring, assessment, general coursework design, and marking for the following courses:
+* Selected for outstanding academic performance in each module, assisted with tutoring, general coursework design, and marking for the following courses:
   - Thermodynamics (2014-2016)
   - Transport Phenomena I (2015)
   - Chemical Reaction Engineering (2016)
   - Modelling and Simulation in Chemical Engineering (2017)
-* Introduced the first VBA-based mini-project in Thermodynamics (2014) to calculate fluid properties.
+* Introduced the first VBA-based mini-project in Thermodynamics (2014) to solve Real Gas Equations of State (EoS).
 
 ***
 

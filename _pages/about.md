@@ -17,3 +17,7 @@ I'm an enthusiastic squash player, and I have played for the Men's Elite categor
 <span style="display:block; ">
 ![Imperial College Men's 1st team winning LUSL 23](/images/squash_team.jpg)
 </span>
+
+<span style="display:block; ">
+![Imperial College Men's 1st team winning LUSL 23](/images/uniandes_squash.JPG)
+</span>
