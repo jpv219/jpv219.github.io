@@ -87,6 +87,10 @@ redirect_from:
 * Conducted a coupled CFD-PBM study on two-phase gas-solid risers using commercial software STAR-CCM+ and ANSYS Fluent under Prof. Dr. Dirceu Noriler's supervision.
 * Research findings were presented at the XXXIX Brazilian Congress of Particulate Systems, ENEMP 2019, Belem-Para, Brazil.
 
+## ❖ Graduate Research Assistant
+### Department of Chemical Engineering, Universidad de Los Andes, Bogota, Colombia (2018-2019)
+* Co-built from scratch two-phase VOF CFD simulations in STAR-CCM+ to study drift flux in highly-viscous liquid-gas flow assurance, proposing a new correlation which outperforms several well-known models when handling real-life systems, achieving a 5\% higher Pearson Coefficient. Published the results of this project in Chem. Eng. Sci. 2020.
+* Collaborated in building multi-physics CFD simulations of the HVAC system in a Tier 2 DataCenter, uncovering hot/high humidity spots and design flaws in the ventilation system. Published results of this project in *Advances in Building Energy Research* 2020.
 ***
 
 # Skills
@@ -179,6 +183,12 @@ redirect_from:
 ## ❖ June 2013: Valedictorian Graduation
 ### The English School, Bogota, Colombia
 * Academic Excellence recognition for the highest GPA in the International Baccalaureate (IB) programme (Final IB Score = 36/45).
+
+# Further training and courses
+***
+## ❖ IBM AI Engineering Course
+### Offered online by Coursera 02/2024
+* Completed Machine Learning with Python (with Honors), gathering skills on ML classification and regression algorithms, including K-Nearest Neighbors, decision trees, regression trees, Linear and Logistic regressions, Support Vector Machine, as well as comparison and evaluation metrics between models. [Course Certificate](https://www.coursera.org/account/accomplishments/verify/F9JKJDPDB8HY)
 
 # Extracurricular Activities
 ***
