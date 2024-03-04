@@ -27,6 +27,14 @@ redirect_from:
 # Projects and Research
 ***
 
+## ❖ Active Learning Guided Regression: Adaptive Data Sampling for Enhanced Predictive Modeling
+### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2024)
+* Currently developing ALeRT, a Python framework aimed at integrating optimized data sampling through Active Learning methodologies with well-established regression models for multidimensional data prediction, with a focus on enhancing model accuracy and performance while minimizing data requirements.
+* Implemented an object-oriented pre-processing module to carry out data clean-up, scaling and dimensionality reduction through Principal Component Analysis to facilitate model training and evaluation.
+* Developed a versatile regression training and evaluation module, which dynamically integrates multiple regression models by leveraging class polymorphism in Python, allowing users to seamlessly select and input hyperparameters for any regression model built-in without requiring explicit code modifications.
+* The upcoming phase entails incorporating a hyperparameter tuning module within the regression framework, capitalizing on its polymorphic structure, and integrating active learning techniques to refine data sampling. This will enhance model performance through adaptive sample selection based on model feedback.
+* GitHub Repository: [ALeRT](https://github.com/jpv219/ALeRT)
+
 ## ❖ Hybrid Local-HPC automation package for parallel simulation run, monitoring, and post-processing
 ### Matar Fluids Group, Department of Chemical Engineering, Imperial College London, U.K. (2023-2024)
 * Spearheaded the creation of the HAMPPSterS Python repository from the ground up, in collaboration with two PhD colleagues, to enable parallelized orchestration of the entire CFD cycle for in-house DNS simulations in a hybrid remote HPC<->local PC environment. The repo fully automates and streamlines repetitive manual tasks carried out by fellow researchers, increasing the number of concurrent simulations five-fold and decreasing simulation run wait time by half. These tasks include: remote job setup, submission and status monitoring, scheduled convergence checks, dynamic re-submission based on custom, case-specific stopping criteria and data conversion, to local data download and subsequent PvPython post-processing.
