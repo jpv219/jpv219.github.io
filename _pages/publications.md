@@ -8,6 +8,10 @@ author_profile: true
 You can also refer to my [Google Scholar profile](https://scholar.google.com/citations?user=rkSKLnYAAAAJ&hl=en) for further detail on my academic career.
 
 
+### 2024
+
+- Liang, F., **Valdes, J.P.**, Cheng, S., Kahouadji, L., Shin, S., Chergui, J., Juric, D., Arcucci, R., and Matar, O.K. (2024). "Liquid–Liquid Dispersion Performance Prediction and Uncertainty Quantification Using Recurrent Neural Networks." Special issue <i>Multiscale Modeling and Artificial Intelligence for Multiphase Flow Science.</i>, <i>Ind. Eng. Chem. Res.</i>, Available at: <https://pubs.acs.org/doi/10.1021/acs.iecr.4c00014>
+
 ### 2023
 
 - **Valdes, J.P.**, Kahouadji, L., Liang, F., Shin, S., Chergui, J., Juric, D., and Matar, O.K. (2023). "On the dispersion dynamics of liquid-liquid surfactant-laden flows in a SMX static mixer." <i>Chem. Eng. J.</i>, 475. Available at: <https://doi.org/10.1016/j.cej.2023.146058>
